@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "TEC_ITI3"

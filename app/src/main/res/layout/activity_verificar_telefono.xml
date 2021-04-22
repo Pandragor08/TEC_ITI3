@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Verificar_telefono">
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="AL PEDIR EL CODIGO DE VERIFICACION LE MANDARA UNA PAGINA PARA COMPROBAR QUE NO ES UN BOOT ESTO PODRIA DEMORAR UN MOMENTO"/>
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/telefono"/>
+
+    <EditText
+        android:id="@+id/etxtPhone"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="+52"
+        android:hint="type your phone Number"
+        android:inputType="phone"
+        android:padding="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="requestCode"
+        android:text="Pedir codigo" />
+
+
+
+    <EditText
+        android:id="@+id/etxtPhoneCode"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Escribe el codigo confirmacion"
+        android:inputType="number" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="signIn"
+        android:text="confirmar codigo" />
+</LinearLayout>

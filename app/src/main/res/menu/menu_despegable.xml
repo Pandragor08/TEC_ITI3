@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/news"
+            android:title="News"
+            android:icon="@drawable/newa"
+            android:checked="true"
+            />
+        <item
+            android:id="@+id/biblioteca"
+            android:title="Biblioteca"
+            android:icon="@drawable/biblioteca"/>
+        <item
+            android:id="@+id/temario"
+            android:title="Temario"
+            android:icon="@drawable/temario"/>
+        <item
+            android:id="@+id/calendario"
+            android:title="Calendario"
+            android:icon="@drawable/calen"/>
+        <item
+            android:id="@+id/perfil"
+            android:title="MyPerfil"
+            android:icon="@drawable/usuario3"/>
+        <item
+            android:id="@+id/cursos"
+            android:title="Cursos"
+            android:icon="@drawable/curso"/>
+        <item
+            android:id="@+id/anuncios"
+            android:title="Anuncios"
+            android:icon="@drawable/anuncio"/>
+
+    </group>
+    <item android:title="settings">
+
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/soporte"
+                    android:title="Soporte"
+                    android:icon="@drawable/soporte"/>
+
+            </group>
+        </menu>
+
+    </item>
+
+
+</menu>

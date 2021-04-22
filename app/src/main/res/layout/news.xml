@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/Azul_tec"
+    android:orientation="vertical"
+    android:paddingStart="5dp"
+    android:gravity="bottom">
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/usuario"
+        android:layout_gravity="center">
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEC-ITI3"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        >
+
+    </TextView>
+
+</LinearLayout>

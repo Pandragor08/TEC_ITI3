@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:gravity="bottom"
+    android:paddingStart="20dp"
+    android:background="@color/Azul_tec"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/usuario2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ITI3 BIENVENIDO"
+        android:textColor="@color/white"
+        android:textSize="30dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

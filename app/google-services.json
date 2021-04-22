@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "111581571654",
+    "project_id": "tec-iti3-app",
+    "storage_bucket": "tec-iti3-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111581571654:android:3aac98685feb27676df847",
+        "android_client_info": {
+          "package_name": "com.pandragor.tec_iti3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111581571654-8a7dru0eeh6kp5ae9g94re2cub6v3qsa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pandragor.tec_iti3",
+            "certificate_hash": "ae3ed09c32c64c3bb52c5e09d1f971dbaaa42c23"
+          }
+        },
+        {
+          "client_id": "111581571654-po3lg0okoftqg8e6957u4s0jh5oqmjh3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNONm0RH7OabPlanJUYq339C-Io2mg-hI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111581571654-po3lg0okoftqg8e6957u4s0jh5oqmjh3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

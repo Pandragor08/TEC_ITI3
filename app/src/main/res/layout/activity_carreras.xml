@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/cabeza"
+    tools:context=".carreras">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/Carrera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/tecnm_circular"/>
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ELIGE LA CARRERA QUE QUIERE VER"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="italic"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/informa"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="ING_INFORMATICA"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/gestiones"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="ING_GESTION"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/civill"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="ING_CIVIL"
+                android:textSize="20dp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
